@@ -4,7 +4,7 @@ import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplet
 import Colors from '../../Utils/Colors';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
-export default function SearchBar(searchedLocation) {
+export default function SearchBar({searchedLocation}) {
   return (
     <View style={{
         display:'flex',
@@ -27,7 +27,7 @@ export default function SearchBar(searchedLocation) {
             searchedLocation(details?.geometry?.location)
       }}
       query={{
-        key: 'AIzaSyBeYGLOPeISvo521NhXNfVgXTb5ETv58xQ', 
+        key: 'AIzaSyAmSrpYJ4kfOs4yjhl3HBltpqD_ZSvzhdc', 
         // key: 'AIzaSyB9ctiAb-J9CZil_ZlpAg3ZOXpxwudHNw',
         language: 'en',
       }}
