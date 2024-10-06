@@ -40,8 +40,8 @@ export default function LoginScreen() {
                 style={styles.bgImage}
             />
             <View style={{padding:20}}>
-                <Text style={styles.heading}>Your Ultimate EV Charging Station Finder</Text>
-                <Text style={styles.desc}>Find EV Charging Station near you, plan trip and so much more in just one click</Text>
+                <Text style={styles.heading}>Your Ultimate EV Charging Station Locator</Text>
+                <Text style={styles.desc}>Discover nearby EV charging stations, plan your trip, and access a lot more—all with just one click!</Text>
 
                 <TouchableOpacity style={styles.button}
                 onPress={onPress}
