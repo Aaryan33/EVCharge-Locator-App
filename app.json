@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "EV_Charger_Station",
-    "slug": "EV_Charger_Station",
+    "name": "EV_ChargeLocator",
+    "slug": "EV_ChargeLocator",
     "version": "1.0.0",
     "sdkVersion": "51.0.0",
     "platforms": ["ios", "android", "web"],
@@ -30,7 +30,7 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow EV_Charger_Station App to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow EV_ChargeLocator App to use your location."
         }
       ]
     ],
