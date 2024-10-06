@@ -3,6 +3,8 @@
     "name": "EV_Charger_Station",
     "slug": "EV_Charger_Station",
     "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",

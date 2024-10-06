@@ -8,7 +8,7 @@ import { collection, query, where, getDocs } from "firebase/firestore";
 import { useUser } from '@clerk/clerk-expo';
 
 export default function PlaceListView({ placeList }) {
-    console.log('***', placeList);
+    // console.log('***', placeList);
     const flatListRef = useRef(null);
     const {user}=useUser();
     const [favList,setFavList]=useState([]);
@@ -21,8 +21,8 @@ export default function PlaceListView({ placeList }) {
     // },[selectedMarker])
 
     useEffect(() => {
-        console.log("Selected Marker: ", selectedMarker);
-        console.log("Place List: ", placeList);
+        // console.log("Selected Marker: ", selectedMarker);
+        // console.log("Place List: ", placeList);
         if (placeList.length > 0 && selectedMarker !== null) {
             scrollToIndex(selectedMarker);
         }
@@ -54,14 +54,14 @@ export default function PlaceListView({ placeList }) {
         const querySnapshot = await getDocs(q);
         querySnapshot.forEach((doc) => {
             // doc.data() is never undefined for query doc snapshots
-            console.log(doc.id, " => ", doc.data());
+            // console.log(doc.id, " => ", doc.data());
             setFavList(favList=>[...favList,doc.data()]);
         });
     }
 
     const isFav=(place)=>{
         const result=favList.find(item=>item.place.id==place.id)
-        console.log(result)
+        // console.log(result)
         return result?true:false;
     }
 
