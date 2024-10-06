@@ -95,7 +95,6 @@ export default function ProfileScreen() {
         )}
       />
 
-      {/* Developed by XYZ text */}
       <Text style={{
         textAlign: 'center',
         marginTop: 110,
