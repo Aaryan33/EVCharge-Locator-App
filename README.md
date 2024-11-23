@@ -1,1 +1,1 @@
-# EV-Charging-Station-Finder-App
+# EVCharge-Locator App
