@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 export default function TabNavigation() {
   return (
     <Tab.Navigator screenOptions={{
-      headerShown:false     // don't show header name
+      headerShown:false     
     }}>
         <Tab.Screen name='home' 
         component={HomeScreen}
@@ -20,16 +20,16 @@ export default function TabNavigation() {
           tabBarLabel:'Search',   // bottom lable
           tabBarActiveTintColor:Colors.PRIMARY,
           tabBarIcon: ({color, size}) => (      // bottom label size and color
-            <Ionicons name="search" size={size} color={color} />     // icons.expo
+            <Ionicons name="search" size={size} color={color} />     
           )
         }} />
 
         <Tab.Screen name='favorite' 
         component={FavoriteScreen}
         options={{
-          tabBarLabel:'Favorite',   // bottom lable
+          tabBarLabel:'Favorite',   
           tabBarActiveTintColor:Colors.PRIMARY,
-          tabBarIcon: ({color, size}) => (      // bottom label size and color
+          tabBarIcon: ({color, size}) => (      
             <Ionicons name="heart" size={size} color={color} />
           )
         }} />
@@ -37,9 +37,9 @@ export default function TabNavigation() {
         <Tab.Screen name='profile' 
         component={ProfileScreen}
         options={{
-          tabBarLabel:'Profile',   // bottom lable
+          tabBarLabel:'Profile',   
           tabBarActiveTintColor:Colors.PRIMARY,
-          tabBarIcon: ({color, size}) => (      // bottom label size and color
+          tabBarIcon: ({color, size}) => (      
             <FontAwesome name="user-circle" size={size} color={color} />
           )
         }} />
