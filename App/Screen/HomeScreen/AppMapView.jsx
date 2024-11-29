@@ -12,6 +12,7 @@ export default function AppMapView({placeList}) {
   return location?.latitude&&(
     <View>
       <MapView style={styles.map}
+        
     //   provider={PROVIDER_GOOGLE}
       customMapStyle={MapViewStyle}
       region={{
