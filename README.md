@@ -26,7 +26,7 @@
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/EVChargeLocator.git
+   https://github.com/Aaryan33/EVCharge-Locator-App.git
    ```
 2. Install dependencies:
    ```
