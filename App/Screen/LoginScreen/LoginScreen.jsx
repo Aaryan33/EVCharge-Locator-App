@@ -17,7 +17,7 @@ export default function LoginScreen() {
                 setActive({ session: createdSessionId });
             } 
             else {
-            // Use signin or signup for next steps such as MFA
+                // Use signin or signup for next step
             } 
         }
         catch(err){
