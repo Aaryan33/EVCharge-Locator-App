@@ -28,6 +28,7 @@ export default function ProfileScreen() {
   const navigation = useNavigation();
 
   return (
+    
     <View>
       <Text style={{ padding: 10, fontFamily: 'outfit-medium', fontSize: 30 }}>
         My
@@ -50,6 +51,7 @@ export default function ProfileScreen() {
             borderRadius: 99
           }}
         />
+        
         <Text style={{
           fontFamily: 'outfit-medium',
           fontSize: 28,
@@ -101,7 +103,7 @@ export default function ProfileScreen() {
         fontSize: 16,
         color: Colors.GRAY
       }}>
-        Developed by Aaryan
+         Developed by Aaryan
       </Text>
     </View>
   )
