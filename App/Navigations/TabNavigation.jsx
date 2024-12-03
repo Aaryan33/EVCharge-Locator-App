@@ -17,7 +17,7 @@ export default function TabNavigation() {
         <Tab.Screen name='home' 
         component={HomeScreen}
         options={{
-          tabBarLabel:'Search',   // bottom lable
+          tabBarLabel:'Search',  
           tabBarActiveTintColor:Colors.PRIMARY,
           tabBarIcon: ({color, size}) => (      // bottom label size and color
             <Ionicons name="search" size={size} color={color} />     
