@@ -11,12 +11,14 @@
         'X-Goog-Api-Key': API_KEY,
         'X-Goog-FieldMask': ['places.displayName', 'places.formattedAddress', 'places.location', 'places.evChargeOptions','places.shortFormattedAddress', 'places.photos','places.id'] 
         // X-Goog-FieldMask - help to retrieve only essential information from google api
+     
     }
  }
 
  const NewNearByPlace=(data)=>axios.post(BASE_URL,data,config)
 
  export default {
+  
     NewNearByPlace,
     API_KEY
  }
