@@ -29,7 +29,7 @@ export default function HomeScreen() {
             "latitude": location?.latitude,
             "longitude": location?.longitude
           },
-          "radius": 5000.0
+          "radius": 5000
         }
       }
     }
@@ -39,7 +39,7 @@ export default function HomeScreen() {
       setPlaceList(resp.data?.places);
     })
     .catch(error => {
-      console.error("Error fetching places:", error);
+      console.error("Error in fetching places:", error);
     });
   }
 
